@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -p tsconfig.build.json",
     "test": "jest test/unit --runInBand --forceExit",
     "test:coverage": "jest test/unit --coverage --runInBand --forceExit",
     "lint": "npm run lint:format && npm run lint:style",
